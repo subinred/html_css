@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div>
+        <!--type은 생략 가능, 클래스의 뒷부분은 색상과 모양에 대한 정의-->
+        <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+        <!--a 태그로도 버튼 만들기 가능, 클릭했을 때 동작 모습의 차이 있음-->
+        <a class="btn btn-primary">Primary</a>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <br/><br/><!--br태그 보다는 margin을 사용하는 것이 좋음-->
+    <div class="btn-group" role="group">
+        <button class="btn btn-primary">Left</button>
+        <button class="btn btn-success">Middle</button>
+        <button class="btn btn-danger">Right</button>
+      </div>
+</body>
+</html>
